@@ -21,3 +21,4 @@ C:\Users\BELTARiT\Desktop\Proyectos de ASP\peluqueria-turnos-desktop\peluqueria-
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\peluqueria-turnos-desktop\peluqueria-turnos-desktop\obj\Debug\peluqueria_turnos_desktop.frmPanelCortes.resources
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\peluqueria-turnos-desktop\peluqueria-turnos-desktop\obj\Debug\peluqueria_turnos_desktop.frmGestionCortes.resources
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\peluqueria-turnos-desktop\peluqueria-turnos-desktop\obj\Debug\peluqueria_turnos_desktop.frmPanelEmpleados.resources
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\peluqueria-turnos-desktop\peluqueria-turnos-desktop\obj\Debug\peluqueria_turnos_desktop.frmGestionEmpleados.resources

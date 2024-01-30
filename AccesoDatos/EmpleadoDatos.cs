@@ -108,6 +108,7 @@ namespace AccesoDatos
                 SqlCommand cmd = new SqlCommand("sp_EditarEmpleado", oConexion);
                 cmd.Parameters.AddWithValue("@IdEmpleado", entidad.IdEmpleado);
                 cmd.Parameters.AddWithValue("@Nombre", entidad.Nombre);
+                cmd.CommandType = CommandType.StoredProcedure;
                 try
                 {
                     oConexion.Open();

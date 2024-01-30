@@ -30,8 +30,9 @@
         {
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.dgvAutores = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAutores)).BeginInit();
+            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
+            this.btnModificar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEliminar
@@ -39,12 +40,13 @@
             this.btnEliminar.BackColor = System.Drawing.SystemColors.WindowText;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnEliminar.Location = new System.Drawing.Point(146, 221);
+            this.btnEliminar.Location = new System.Drawing.Point(216, 221);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 6;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnAgregar
             // 
@@ -57,29 +59,45 @@
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // dgvAutores
+            // dgvEmpleados
             // 
-            this.dgvAutores.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
-            this.dgvAutores.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvAutores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAutores.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvAutores.Location = new System.Drawing.Point(24, 26);
-            this.dgvAutores.Name = "dgvAutores";
-            this.dgvAutores.Size = new System.Drawing.Size(197, 134);
-            this.dgvAutores.TabIndex = 4;
+            this.dgvEmpleados.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
+            this.dgvEmpleados.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmpleados.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvEmpleados.Location = new System.Drawing.Point(24, 26);
+            this.dgvEmpleados.Name = "dgvEmpleados";
+            this.dgvEmpleados.Size = new System.Drawing.Size(267, 155);
+            this.dgvEmpleados.TabIndex = 4;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnModificar.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnModificar.Location = new System.Drawing.Point(121, 221);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 7;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // frmPanelEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(246, 264);
+            this.ClientSize = new System.Drawing.Size(316, 264);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.dgvAutores);
+            this.Controls.Add(this.dgvEmpleados);
             this.Name = "frmPanelEmpleados";
             this.Text = "frmPanelEmpleados";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAutores)).EndInit();
+            this.Load += new System.EventHandler(this.frmPanelEmpleados_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -88,6 +106,7 @@
 
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.DataGridView dgvAutores;
+        private System.Windows.Forms.DataGridView dgvEmpleados;
+        private System.Windows.Forms.Button btnModificar;
     }
 }

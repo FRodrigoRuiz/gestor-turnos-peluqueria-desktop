@@ -17,6 +17,7 @@ namespace peluqueria_turnos_desktop
         private void frmPanelCortes_Load(object sender, EventArgs e)
         {
             Cargar();
+            OcultarColumnas();
         }
 
         private void Cargar()

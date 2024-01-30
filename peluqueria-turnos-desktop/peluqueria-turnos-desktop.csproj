@@ -93,6 +93,9 @@
     <EmbeddedResource Include="frmGestionCortes.resx">
       <DependentUpon>frmGestionCortes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionEmpleados.resx">
+      <DependentUpon>frmGestionEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGestionTurnos.resx">
       <DependentUpon>frmGestionTurnos.cs</DependentUpon>
     </EmbeddedResource>
