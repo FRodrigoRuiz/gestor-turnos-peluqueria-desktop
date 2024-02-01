@@ -37,10 +37,10 @@
             // 
             // btnModificarCorte
             // 
-            this.btnModificarCorte.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnModificarCorte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.btnModificarCorte.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificarCorte.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnModificarCorte.Location = new System.Drawing.Point(151, 217);
+            this.btnModificarCorte.Location = new System.Drawing.Point(148, 217);
             this.btnModificarCorte.Name = "btnModificarCorte";
             this.btnModificarCorte.Size = new System.Drawing.Size(75, 23);
             this.btnModificarCorte.TabIndex = 8;
@@ -50,7 +50,7 @@
             // 
             // btnEliminarCorte
             // 
-            this.btnEliminarCorte.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnEliminarCorte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.btnEliminarCorte.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminarCorte.ForeColor = System.Drawing.SystemColors.Window;
             this.btnEliminarCorte.Location = new System.Drawing.Point(255, 217);
@@ -63,7 +63,7 @@
             // 
             // btnAgregarCorte
             // 
-            this.btnAgregarCorte.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAgregarCorte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.btnAgregarCorte.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgregarCorte.ForeColor = System.Drawing.SystemColors.Window;
             this.btnAgregarCorte.Location = new System.Drawing.Point(38, 217);
